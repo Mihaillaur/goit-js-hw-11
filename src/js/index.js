@@ -5,6 +5,7 @@ import { createMarkup } from './markup';
 let request = '';
 let page = 1;
 let totalImages = [];
+let totalHits = 0;
 
 elements.form.addEventListener('submit', handlerSubmit);
 elements.btnLoadMore.addEventListener('click', handlerLoadMore);
