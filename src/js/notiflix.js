@@ -20,5 +20,8 @@ function notifyEndOfGallery() {
     }
   );
 }
+function notifyEnterQuery (){
+  Notiflix.Notify.failure('Please enter a query in the search field.')
 
-export { notifyNoImg, notifyEndOfGallery };
+}
+export { notifyNoImg, notifyEndOfGallery, notifyEnterQuery };
